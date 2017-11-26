@@ -1,0 +1,153 @@
+/* CSS Document */
+.html
+{	    
+	 background-size: cover; 
+}
+body
+{
+	font-size:32px;	
+	text-align:center;
+
+}
+
+.box
+{		
+	margin-top:80px;
+	text-shadow:#999999;	
+	width:50%;
+	height:auto;
+	padding-top:25px;
+	outline:none;
+	box-shadow: 0 12px 250px 0 rgba(255, 255, 256, 0.75);
+	border: 2px solid #CCC;
+	border-radius: 50px;
+	border-bottom-width:thick;	
+	border-collapse:separate;
+	border-top-width:thick;	
+	background-image:url(5.jpg);
+	
+}
+
+.regbox
+{		
+	margin-top:8px
+	text-shadow:#999999;	
+	width:50%;
+	height:auto;
+	padding-top:25px;
+	outline:none;
+	box-shadow: 0 12px 250px 0 rgba(255, 255, 256, 0.75);
+	border: 2px solid #CCC;
+	border-radius: 50px;
+	border-bottom-width:thick;	
+	border-collapse:separate;
+	border-top-width:thick;	
+	background-image:url(5.jpg);
+	
+}
+
+
+.outer_container 
+{		
+	border:double;
+	width:70%;			
+	overflow:visible;
+	background-color: #CCCCCC;
+	border-style:inset;
+	border-collapse:separate
+	-webkit-box-shadow: inset 100 20px 1px rgba(30,30,30,1.075),0 0 8px rgba(190, 45, 48,1.6);
+	box-shadow: inset 0 10px 10px rgba(120,85,30,0.1),00 0 8px rgba(190, 45, 48,1.6);
+}
+.container 
+{
+	margin: 0 auto;
+}
+.form-group 
+{ 
+	margin-bottom: 20px; 
+}
+.form-control 
+{
+	margin:7px;
+	display: block;
+	width:80%;	
+	padding: 6px 12px;
+	font-size: 16px;
+	line-height: 2.42857143;
+	color: #333333;
+	background-color: #CCCCC;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 25px;
+	border-bottom-width:thick;	
+	border-color:#000000;
+	font-style:oblique;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:large;
+	font-size-adjust:inherit;
+	font-weight:lighter;
+	letter-spacing:.8px;
+}
+
+.form-control:focus 
+{
+	color:#000000;
+	font-family:"Times New Roman", Times, serif;
+	letter-spacing:2px;
+	border-color: #FF0000;
+	outline: none;
+	box-shadow: 0 12px 1550px 0 rgba(255, 255, 256, 0.75);
+	border-bottom-width:8px;	
+}
+h3 
+{	
+	font-family:"Cooper Black";
+	font-style:italic;
+	font-weight:bold;
+	background-color:#FFFFFF; 
+	color:#000066;
+	outline-style:solid;
+	outline-color:#000000
+	
+}
+
+	button 
+	{
+      display: inline-block;
+      position: relative;
+      width: 120px;
+      height: 32px;
+      line-height: 32px;
+      border-radius: 2px;
+      font-size: 0.9em;
+      background-color: #fff;
+      color: #000000;
+    }     
+   
+    
+    .button.grey {
+      background-color: #999999;
+    }
+    
+    .button.blue {
+      background-color: #4285f4;
+      color: #fff;
+    }
+    
+    .button.green {
+      background-color: #0f9d58;
+      color: #fff;
+    }
+    
+    .button.raised {
+      transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      transition-delay: 0.2s;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    }
+    
+    .button.raised:active {
+	 transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 8px px 0 rgba(100, 100, 100, 0.2);
+      transition-delay: 0s;    }
+    
+   

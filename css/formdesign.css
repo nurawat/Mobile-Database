@@ -1,0 +1,35 @@
+.center
+{
+	text-align:center;	
+}
+section
+{
+	border-bottom-color:#666666;
+	padding-bottom:7px;
+	padding-left:10px;
+	padding-right:7px;
+	padding-top:10px;
+}
+
+section > * 
+{
+      margin: 10px
+}
+ 
+.dialog
+{
+      position: relative;
+      display: block;
+      width: inherit;
+      height: inherit;
+      vertical-align: sub;
+      background-color: #FFFFFF;
+      box-shadow: 0 16px 55px 0 rgba(0, 0, 0, 0.24);
+}
+
+.dialog
+{
+      box-sizing: border-box;
+      padding: inherit;
+}
+        
